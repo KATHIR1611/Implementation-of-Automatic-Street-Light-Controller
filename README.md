@@ -1,9 +1,11 @@
 # Automatic Street Light Controller
 
+Date : 19/05/23
+
 ##  AIM:
 To design and implement Automatic Street Light controller using Arduino UNO controller.
 
-## Software required:
+## SOFTWARE REQUIRED:
 Arduino IDE </br>
 Proteous
 
@@ -40,9 +42,45 @@ LDR Features of LDR are as follows:
 
 ## PROGRAM:
 
+Developed by : Kathirvelan.K
+
+Register number : 212221220026
+```
+int sensorPin = A0;
+int sensorValue = 0;
+void setup()
+{
+Serial.begin(9600);
+pinMode(13, OUTPUT);
+}
+void loop()
+{
+sensorValue = analogRead(sensorPin);
+Serial.print("OUTPUT:");
+Serial.println(sensorValue);
+delay(500);
+if(sensorValue<=500)
+{
+digitalWrite(13, HIGH);
+
+delay(5000);
+}
+else
+{
+digitalWrite(13, LOW);
+
+delay(5000);
+}
+}
+```
+
 ## CIRCUIT DIAGRAM:
 
+![]()
+
 ## OUTPUT:
+
+![]()
 
 ## RESULT:
 Thus the Automatic Street Light controller was implemented using Arduino UNO controller.
