@@ -76,11 +76,11 @@ delay(5000);
 
 ## CIRCUIT DIAGRAM:
 
-![]()
+![](https://github.com/KATHIR1611/Implementation-of-Automatic-Street-Light-Controller/blob/main/PIOT_EX07-1.png)
 
 ## OUTPUT:
 
-![]()
+![](https://github.com/KATHIR1611/Implementation-of-Automatic-Street-Light-Controller/blob/main/PIOT_EX07-2%5D.png)
 
 ## RESULT:
 Thus the Automatic Street Light controller was implemented using Arduino UNO controller.
